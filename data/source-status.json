@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-03-10T08:52:01.330331Z",
+  "generated_at": "2026-03-10T09:52:15.724521Z",
   "sites": [
     {
       "site_id": "techurls",
       "site_name": "TechURLs",
       "ok": true,
       "item_count": 405,
-      "duration_ms": 529,
+      "duration_ms": 543,
       "error": null
     },
     {
@@ -14,15 +14,15 @@
       "site_name": "Buzzing",
       "ok": true,
       "item_count": 744,
-      "duration_ms": 266,
+      "duration_ms": 275,
       "error": null
     },
     {
       "site_id": "iris",
       "site_name": "Info Flow",
       "ok": true,
-      "item_count": 455,
-      "duration_ms": 17806,
+      "item_count": 467,
+      "duration_ms": 35372,
       "error": null
     },
     {
@@ -30,15 +30,15 @@
       "site_name": "BestBlogs",
       "ok": true,
       "item_count": 85,
-      "duration_ms": 2336,
+      "duration_ms": 1872,
       "error": null
     },
     {
       "site_id": "tophub",
       "site_name": "TopHub",
       "ok": true,
-      "item_count": 3038,
-      "duration_ms": 1272,
+      "item_count": 3036,
+      "duration_ms": 1675,
       "error": null
     },
     {
@@ -46,7 +46,7 @@
       "site_name": "Zeli",
       "ok": true,
       "item_count": 79,
-      "duration_ms": 390,
+      "duration_ms": 306,
       "error": null
     },
     {
@@ -54,23 +54,23 @@
       "site_name": "AI HubToday",
       "ok": true,
       "item_count": 1,
-      "duration_ms": 227,
+      "duration_ms": 254,
       "error": null
     },
     {
       "site_id": "aibase",
       "site_name": "AIbase",
-      "ok": true,
-      "item_count": 20,
-      "duration_ms": 1750,
-      "error": null
+      "ok": false,
+      "item_count": 0,
+      "duration_ms": 33281,
+      "error": "HTTPSConnectionPool(host='www.aibase.com', port=443): Read timed out."
     },
     {
       "site_id": "aihot",
       "site_name": "AI今日热榜",
       "ok": false,
       "item_count": 0,
-      "duration_ms": 235,
+      "duration_ms": 26,
       "error": "403 Client Error: Forbidden for url: https://aihot.today/"
     },
     {
@@ -78,18 +78,19 @@
       "site_name": "NewsNow",
       "ok": true,
       "item_count": 142,
-      "duration_ms": 317,
+      "duration_ms": 366,
       "error": null
     }
   ],
-  "successful_sites": 9,
+  "successful_sites": 8,
   "failed_sites": [
+    "aibase",
     "aihot"
   ],
   "zero_item_sites": [],
-  "fetched_raw_items": 4969,
-  "items_before_topic_filter": 8435,
-  "items_in_24h": 983,
+  "fetched_raw_items": 4959,
+  "items_before_topic_filter": 8391,
+  "items_in_24h": 967,
   "rss_opml": {
     "enabled": false,
     "path": null,
